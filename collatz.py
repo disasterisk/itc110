@@ -3,7 +3,7 @@ def collatz(x):
         return x//2
     else:
         return x*3+1
-number = int(input())
+number = int(input("Enter a number."))
 print(number)
 while number != 1:
     number = collatz(number)
