@@ -1,0 +1,56 @@
+1 True and False
+2 and, or & not
+3 True and True = True
+  True and False = False
+  False and False = False
+
+  True or True = True
+  True or False = True
+  False or False = False
+
+  not True = False
+  not False = True
+4 False
+  False
+  True
+  False
+  False
+  True
+5 ==
+  >
+  <
+  <=
+  >=
+  !=
+6 == compares two values
+  = assigns a value to a variable
+7 A condition is an expression used in a control flow statement. Conditions always evaluate to True or False.
+8 [1] spam = 0
+  [1] if spam == 10:
+  [2] 	print('eggs')
+  [2] 	if spam > 5:
+  [3] 		print('bacon')
+  [2] 	else:
+  [3] 		print('ham')
+  [2] 	print('spam')
+  [1] print('spam')
+9
+spam = input("How many spam? ")
+if spam == 1:
+ print("Hello")
+elif spam == 2:
+ print("Howdy")
+else
+ print("Greetings")
+10 ctrl C
+11 break ends a loop and continue reevaluates the loop from the beginning.
+12 These all give you the same results but range(0,10) specifies to start at zero and range (0,10,1) specifies to increment 1.
+13
+for i in range(1,11):
+ print(i)
+
+i=1
+while i<11:
+ print(i)
+ i+=1
+14 spam.bacon()
