@@ -1,0 +1,20 @@
+Originally posted at https://gist.github.com/disasterisk/6768e1cf8bf3438203fc on January 5, 2016
+
+1
+  operators:  * - / +
+  values: 'hello' -88.8 5
+2
+  variable:  spam
+  string:  'spam'
+3
+  strings, integers, floats
+4
+  An expression contains at least 2 values and at least one operator. Expressions evaluate to one value.
+5
+  A statement assigns a value to a variable.
+6
+  Bacon is still equal to 20.
+7
+  Both evaluate to 'spamspamspam'.
+8
+  A variable can not start with a number.
