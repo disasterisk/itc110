@@ -1,0 +1,15 @@
+
+1. They make it so that you do not need to repeat code.
+2. The code in a function is executed only when that function is called
+3. def creates a function.
+4. A function call executes the function. The function is simply a block of code.
+5. There is one global scope in a python program. A local scope is created whenever a function is called.
+6. The program forgets local variables as soon as the function call ends
+7. A return value is the value a function evaluates to. Return values can be used in expressions.
+8. None
+9. The statement global tells a function you are referring to a global variable.
+10. NoneType
+11. It imports a module called areallyourpetsnamederic
+12. spam.bacon()
+13. Put the code that could have an error in a try clause.
+14. Put code with the potential error in the try clause. What to do in case of an exception goes in the except clause
