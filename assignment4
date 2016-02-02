@@ -1,0 +1,20 @@
+ 1) The square brackets [] denote a list.
+ 2) spam[2]="hello"
+ 3) c
+ 4) d
+ 5) ['a','b']
+ 6) 1
+ 7) [3.14,'cat',11,'cat', True, 99]
+ 8) [3.14, 11, 'cat', True]
+ 9) += concatenation
+	*= replication
+10) append() adds something to the end of a list and insert() overwrites an index
+11) list.remove('value')
+	del list[i]
+12) Strings are like lists of characters. They can be indexed, sliced, used in for loops, with len(), and with the in and not in operators.
+13) Tuples can not have their values changed.
+14) (42,)
+15) tuple(list)
+	list(tuple)
+16) references to lists
+17) copy() copies a list. deepcopy() also copies the lists referenced in the list.
