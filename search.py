@@ -1,12 +1,12 @@
 import re
 import os
 import pprint
-currentFolder = r"C:\\"
+currentFolder = "C:\\\\"
 txtCount = 0
-txts = []
 newDirectory = True
 while True:
     if newDirectory:
+        txts = []
         txtCount = 0
         direct = os.listdir(currentFolder)
         for file in direct:
@@ -20,16 +20,20 @@ while True:
     if task == "search":
         searchterm = re.compile(input("Type in a search. "))
         for file in txts:
+            print(file)
             currentFile = open(file)
             print(searchterm.findall(currentFile.read()))
     elif task == "look":
         pprint.pprint(direct)
     elif task in direct:
-        backslash = re.compile(r"\$")
+        backslash = re.compile(r"\\$")
         if backslash.search(currentFolder):
+            print("backslash found")
             x = currentFolder + task
+            print(x)
         else:
             x = currentFolder + "\\" + task
+            print(x)
         if os.path.isdir(x):
             currentFolder = x
             newDirectory = True
