@@ -17,6 +17,6 @@ else:
         print("Sorry, I don't understand.")
         guess = input('heads or tails?\n')
     if toss == guess:
-       print(win+" I was worried there for a second.")
+        print(win + " I was worried there for a second.")
     else:
         print("Congratulations! You have redefined failure.")
